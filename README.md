@@ -12,6 +12,21 @@ elemeknél CRUD műveletek vannak biztosítva.
 5. 
 ### API Végpontok
 
+```json
+{
+    "workers": [
+        {
+            "id": null,
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "gps_coordinate": "",
+            "deleted_at": null,
+            "created_at": "",
+            "updated_at": ""
+        }
+    ]
+}
 #### `/api/workers`
 `METHOD: GET
 RESPONSE:{
