@@ -100,7 +100,8 @@ RESPONSE: {
 }
 ```
 #### `/api/customers`
-`METHOD: GET
+```json
+METHOD: GET
 RESPONSE:{
     "customers": [
         {
@@ -114,9 +115,11 @@ RESPONSE:{
             "updated_at": ""
         }
     ]
-}`
+}
+```
 #### `/api/customers`
-`METHOD: POST
+```json
+METHOD: POST
 REQUEST: {
     "full_name": "",
     "phone": "",
@@ -134,9 +137,11 @@ RESPONSE: {
         "created_at": "",
         "id": null
     }
-}`
+}
+```
 #### `/api/customers/{id}`
-`METHOD: GET
+```json
+METHOD: GET
 RESPONSE: {
     "customer": {
         "id": null,
@@ -148,9 +153,11 @@ RESPONSE: {
         "created_at": "",
         "updated_at": ""
     }
-}`
+}
+```
 #### `/api/customers/{id}`
-`METHOD: PUT
+```json
+METHOD: PUT
 REQUEST: {
     "full_name": "",
     "phone": "",
@@ -169,14 +176,18 @@ RESPONSE: {
         "created_at": "",
         "updated_at": ""
     }
-}`
+}
+```
 #### `/api/customers/{id}`
-`METHOD: DELETE
+```json
+METHOD: DELETE
 RESPONSE: {
     "message": ""
-}`
+}
+```
 #### `/api/tasks`
-`METHOD: GET
+```json
+METHOD: GET
 RESPONSE:{
     "tasks": [
         {
@@ -202,9 +213,11 @@ RESPONSE:{
             "workers": []
         }
     ]
-}`
+}
+```
 #### `/api/tasks`
-`METHOD: POST
+```json
+METHOD: POST
 REQUEST: {
     "customer_id": null,
     "description": "",
@@ -224,9 +237,11 @@ RESPONSE: {
         "created_at": "",
         "id": null
     }
-}`
+}
+```
 #### `/api/tasks/{id}`
-`METHOD: GET
+```json
+METHOD: GET
 RESPONSE: {
     "task": [
         {
@@ -252,9 +267,11 @@ RESPONSE: {
             "workers": []
         }
     ]
-}`
+}
+```
 #### `/api/tasks/{id}`
-`METHOD: PUT
+```json
+METHOD: PUT
 REQUEST:{
     "customer_id": null,
     "description": "",
@@ -275,9 +292,12 @@ RESPONSE: {
         "created_at": "",
         "id": null
     }
-}`
+}
+```
 #### `/api/tasks/{id}`
-`METHOD: DELETE
+```json
+METHOD: DELETE
 RESPONSE: {
     "message": ""
-}`
+}
+```
