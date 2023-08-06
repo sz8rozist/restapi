@@ -12,23 +12,9 @@ elemeknél CRUD műveletek vannak biztosítva.
 5. 
 ### API Végpontok
 
-```json
-{
-    "workers": [
-        {
-            "id": null,
-            "first_name": "",
-            "last_name": "",
-            "email": "",
-            "gps_coordinate": "",
-            "deleted_at": null,
-            "created_at": "",
-            "updated_at": ""
-        }
-    ]
-}
 #### `/api/workers`
-`METHOD: GET
+```json
+METHOD: GET
 RESPONSE:{
     "workers": [
         {
@@ -42,9 +28,11 @@ RESPONSE:{
             "updated_at": ""
         }
     ]
-}`
+}
+```
 #### `/api/workers`
-`METHOD: POST
+```json
+METHOD: POST
 REQUEST: {
     "first_name": "",
     "last_name": "",
@@ -62,9 +50,11 @@ RESPONSE: {
         "created_at": "",
         "id": null
     }
-}`
+}
+```
 #### `/api/workers/{id}`
-`METHOD: GET
+```json
+METHOD: GET
 RESPONSE: {
     "worker": {
         "id": null,
@@ -76,9 +66,11 @@ RESPONSE: {
         "created_at": "",
         "updated_at": ""
     }
-}`
+}
+```
 #### `/api/workers/{id}`
-`METHOD: PUT
+```json
+METHOD: PUT
 REQUEST: {
     "first_name": "",
     "last_name": "",
@@ -97,12 +89,15 @@ RESPONSE: {
         "created_at": "",
         "updated_at": ""
     }
-}`
+}
+```
 #### `/api/workers/{id}`
-`METHOD: DELETE
+```json
+METHOD: DELETE
 RESPONSE: {
     "message": ""
-}`
+}
+```
 #### `/api/customers`
 `METHOD: GET
 RESPONSE:{
