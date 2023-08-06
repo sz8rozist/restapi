@@ -13,8 +13,10 @@ elemeknél CRUD műveletek vannak biztosítva.
 ### API Végpontok
 
 #### `/api/workers`
-`METHOD: GET`
+
 ```json
+METHOD: GET
+RESPONSE:{
     "workers": [
         {
             "id": null,
