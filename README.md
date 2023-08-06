@@ -164,9 +164,6 @@ RESPONSE: {
 RESPONSE: {
     "message": ""
 }`
-
-# TASKS
-
 #### `/api/tasks`
 `METHOD: GET
 RESPONSE:{
